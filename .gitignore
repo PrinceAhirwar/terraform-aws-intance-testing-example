@@ -1,0 +1,73 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@prince-ahirwar 
+terraform-aws-modules
+/
+terraform-aws-ec2-instance
+Public
+Code
+Issues
+3
+Pull requests
+Actions
+Security
+Insights
+terraform-aws-ec2-instance/.gitignore
+@bryantbiggs
+bryantbiggs chore: update documentation based on latest terraform-docs which in…
+…
+Latest commit 8acc289 on Feb 21, 2021
+ History
+ 2 contributors
+@bryantbiggs@antonbabenko
+29 lines (23 sloc)  680 Bytes
+
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform lockfile
+.terraform.lock.hcl
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files, which are likely to contain sentitive data, such as
+# password, private keys, and other secrets. These should not be part of version
+# control as they are data points which are potentially sensitive and subject
+# to change depending on the environment.
+*.tfvars
+
+# Ignore override files as they are usually used to override resources locally and so
+# are not checked in
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
